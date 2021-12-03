@@ -17,6 +17,13 @@ export const DAI = new Token(
   'DAI',
   'Dai Stablecoin'
 )
+export const DAI_GOERLI = new Token(
+  SupportedChainId.GOERLI,
+  '0x1c52fb386302754beb28cdc643359288b43c8ed9',
+  18,
+  'DAI',
+  'Dai Stablecoin'
+)
 export const DAI_ARBITRUM_ONE = new Token(
   SupportedChainId.ARBITRUM_ONE,
   '0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1',
@@ -38,6 +45,13 @@ export const USDC = new Token(
   'USDC',
   'USD//C'
 )
+export const USDC_GOERLI = new Token(
+  SupportedChainId.GOERLI,
+  '0x15668e563cb8e1032fcef77cc114fece509e14fa',
+  18,
+  'USDC',
+  'USD//C'
+)
 export const USDC_ARBITRUM = new Token(
   SupportedChainId.ARBITRUM_ONE,
   '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
@@ -56,6 +70,13 @@ export const USDT = new Token(
   SupportedChainId.MAINNET,
   '0xdAC17F958D2ee523a2206206994597C13D831ec7',
   6,
+  'USDT',
+  'Tether USD'
+)
+export const USDT_GOERLI = new Token(
+  SupportedChainId.GOERLI,
+  '0x840232179b61b2720dfe17aafc1e480a3874def7',
+  18,
   'USDT',
   'Tether USD'
 )
